@@ -1,0 +1,6 @@
+langchain_chroma
+langchain_classic
+langchain_community
+langchain_core
+langchain_openai
+langchain_text_splitters
