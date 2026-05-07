@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Local git hook fallback: run the same script used by pre-commit
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/scripts"
+"$SCRIPT_DIR/check_no_openai_keys.sh"

@@ -1,0 +1,23 @@
+# General
+.vscode/
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+secrets.*
+
+# Databases / vectorstores
+*.sqlite3
+*.db
+**/chroma.sqlite3
+**/rerankDB/
+**/text_index/
+
+# OS files
+.DS_Store
+Thumbs.db
