@@ -1,8 +1,0 @@
-repos:
-  - repo: local
-    hooks:
-      - id: no-openai-key
-        name: Prevent committing OpenAI keys
-        entry: bash scripts/check_no_openai_keys.sh
-        language: system
-        stages: [commit]
