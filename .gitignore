@@ -21,3 +21,7 @@ secrets.*
 # OS files
 .DS_Store
 Thumbs.db
+
+# scripts
+.pre-commit-config.yaml
+scripts/
